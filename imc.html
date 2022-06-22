@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>School of Net</title>
+</head>
+<body>
+    <button style="font-weight:bold;display:block;margin:auto;font-size:17px;color:#ffffff; background-color: #8899dd; border:none; width:120px; height:40px;" onclick="IMC()">calcula IMC</button>
+</body>
+<script>
+    function IMC(){
+        var person = prompt("what's your name?")
+        var height = prompt("Tell me your height in meters")
+        var weight = prompt("Now I just need your weight on Kg")
+        var IMC = weight / (height * height)
+        alert("Hi " + person + " Your IMC value is " + IMC.toFixed(2))
+    }
+
+</script>
+</html>
